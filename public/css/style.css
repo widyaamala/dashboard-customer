@@ -1,0 +1,322 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+.toggler-icon {
+  color: #92929D;
+}
+
+.nav-logo-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #44444F;
+  font-size: 22px;
+  line-height: 51px;
+  letter-spacing: 0.255119px;
+  margin: 0;
+}
+
+.nav-logo-name .nav-domain {
+  color: #440099 !important;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.notif-badge-container {
+  position: relative;
+  display: block;
+  margin-right: 1rem;
+}
+
+.notif-badge-container .notif-icon {
+  position: relative;
+}
+
+.notif-badge-container .badge-notif {
+  position: absolute;
+  top: 2px;
+  /* changed */
+  right: -1px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: red;
+}
+
+.nav-lang {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #38057F !important;
+}
+
+.nav-profile {
+  margin-left: .2rem;
+}
+
+.nav-profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.nav-profile .nav-profile-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+  color: #1A1725;
+}
+
+/*--------------------------------------------------------------
+# Sidebar
+--------------------------------------------------------------*/
+.sidebar-fixed {
+  height: 100vh;
+  width: 270px;
+  background-color: #fff;
+  padding: 1.5rem;
+  padding-top: 88px;
+}
+
+.sidebar-fixed .list-group .active {
+  border-radius: 5px;
+}
+
+.sidebar-fixed .list-group-item {
+  padding: 1rem 1.25rem;
+  margin-bottom: -1px;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.sidebar-fixed .list-group-item .active {
+  z-index: 2;
+  color: #440099 !important;
+  background-color: #F2EEF8 !important;
+  border-top-right-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+  border-left: 6px solid #663AAC !important;
+}
+
+.sidebar-fixed .logo-wrapper {
+  padding: 2.5rem;
+}
+
+.sidebar-fixed .logo-wrapper img {
+  max-height: 50px;
+}
+
+@media (min-width: 1200px) {
+  .page-footer, main {
+    padding-left: 270px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .sidebar-fixed {
+    display: none;
+  }
+}
+
+/*--------------------------------------------------------------
+# Main
+--------------------------------------------------------------*/
+ul.inline-badge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+}
+
+ul.inline-badge .badge-list {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  -webkit-box-shadow: 0px 32px 45.3333px -28px rgba(87, 22, 187, 0.4);
+          box-shadow: 0px 32px 45.3333px -28px rgba(87, 22, 187, 0.4);
+  border-radius: 8px;
+  padding: 0.3rem 2rem;
+  margin-right: 0.5rem;
+}
+
+ul.inline-badge .badge-download-resume {
+  background: #FFBC10;
+}
+
+ul.inline-badge .badge-reject {
+  background: #FC5A5A;
+}
+
+ul.inline-badge .badge-interview {
+  background: #00BA88;
+}
+
+ul.inline-badge .badge-hire {
+  background: #440099;
+}
+
+.card-style {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 6.38599px 61.7312px rgba(196, 203, 214, 0.103611);
+          box-shadow: 0px 6.38599px 61.7312px rgba(196, 203, 214, 0.103611);
+  border-radius: 25.544px;
+  padding: 0.75rem;
+  min-height: 100%;
+}
+
+.card-summary .title-style, .card-profile .title-style, .title .title-style {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: #181725;
+}
+
+.card-summary .paragraph, .card-profile .paragraph, .title .paragraph {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  color: #92929D;
+}
+
+.card-profile .header-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-profile .header-profile .img-profile {
+  width: 110px;
+}
+
+.card-profile .header-profile .img-icon {
+  width: 36px;
+  height: 36px;
+}
+
+.card-profile .badge-address {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  color: #7D8592;
+  text-align: center;
+  -webkit-box-shadow: 0px 32px 45.3333px -28px rgba(87, 22, 187, 0.4);
+          box-shadow: 0px 32px 45.3333px -28px rgba(87, 22, 187, 0.4);
+  border-radius: 8px;
+  padding: 0.3rem 0rem;
+  width: 160px;
+  background: #EDF2FD;
+}
+
+.card-profile .badge-star {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  -webkit-box-shadow: 0px 32px 45.3333px -28px rgba(87, 22, 187, 0.4);
+          box-shadow: 0px 32px 45.3333px -28px rgba(87, 22, 187, 0.4);
+  border-radius: 30px;
+  padding: 0.3rem 1rem;
+  width: 40%;
+  background: #26C0E2;
+}
+
+.card-profile .badge-time {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #030229;
+  text-align: center;
+  -webkit-box-shadow: 0px 32px 45.3333px -28px rgba(87, 22, 187, 0.4);
+          box-shadow: 0px 32px 45.3333px -28px rgba(87, 22, 187, 0.4);
+  border-radius: 30px;
+  padding: 0.3rem 1rem;
+  width: 60%;
+  background: #FFD66B;
+}
+
+.card-profile .badge-budget {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  -webkit-box-shadow: 0px 32px 45.3333px -28px rgba(87, 22, 187, 0.4);
+          box-shadow: 0px 32px 45.3333px -28px rgba(87, 22, 187, 0.4);
+  border-radius: 30px;
+  padding: 0.3rem 1rem;
+  background: #FF8F6B;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #525CE5;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.badge-hiring-info {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  color: #9797C9;
+  text-align: center;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  background: #F3F3F5;
+}
+
+.card-scrolling {
+  height: 260px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.card-scrolling h6 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #440099;
+}
+
+.card-scrolling p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  color: #92929D;
+}
+
+.card-scrolling::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #E7E7F4;
+  border-radius: 10px;
+}
+
+.card-scrolling::-webkit-scrollbar {
+  width: 5px;
+  background-color: #E7E7F4;
+}
+
+.card-scrolling::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-clip: padding-box;
+  background-color: #C1A9DE;
+}
+/*# sourceMappingURL=style.css.map */
