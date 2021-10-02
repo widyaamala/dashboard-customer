@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/index', 'FrontendController@index')->name('index');
+Route::get('/index-mobile', 'FrontendController@indexMobile')->name('index-mobile');

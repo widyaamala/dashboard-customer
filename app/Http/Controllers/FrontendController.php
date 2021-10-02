@@ -19,6 +19,11 @@ class FrontendController extends Controller
         return view('index');
     }
 
+    public function indexMobile()
+    {
+        return view('index-mobile');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
