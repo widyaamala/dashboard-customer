@@ -17,5 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index', 'FrontendController@index')->name('index');
-Route::get('/index-mobile', 'FrontendController@indexMobile')->name('index-mobile');
+Route::get('/login', 'FrontendController@login')->name('login');
+Route::get('/list', 'FrontendController@list')->name('list');
+Route::get('/add', 'FrontendController@create')->name('add-customer');

@@ -5340,7 +5340,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   text-decoration: none;
   border-top-right-radius: 15px !important;
   border-bottom-right-radius: 15px !important;
-  border-left: 6px solid #663AAC !important;
+  border-left: 6px solid #f95f5f !important;
 }
 
 .list-group-item-action:active {
@@ -5376,11 +5376,9 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .list-group-item.active {
   z-index: 2;
-  color: #440099 !important;
-  background-color: #F2EEF8 !important;
-  border-top-right-radius: 15px !important;
-  border-bottom-right-radius: 15px !important;
-  border-left: 6px solid #663AAC !important;
+  color: #f95f5f !important;
+  background-color: #fff !important;
+  border-left: 6px solid #f95f5f !important;
 }
 
 .list-group-horizontal {

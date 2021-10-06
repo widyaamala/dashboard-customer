@@ -14,14 +14,9 @@ class FrontendController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function list()
     {
-        return view('index');
-    }
-
-    public function indexMobile()
-    {
-        return view('index-mobile');
+        return view('list-customer');
     }
 
     /**
@@ -31,7 +26,12 @@ class FrontendController extends Controller
      */
     public function create()
     {
-        //
+        return view('add-customer');
+    }
+
+    public function login()
+    {
+        return view('login');
     }
 
     /**
